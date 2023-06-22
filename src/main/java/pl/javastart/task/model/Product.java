@@ -1,6 +1,11 @@
 package pl.javastart.task.model;
 
 public class Product {
+
+    public static final String CATEGORY_BREAD = "Pieczywo";
+    public static final String CATEGORY_DAIRY = "Nabiał";
+    public static final String CATEGORY_SWEETS = "Słodycze";
+
     private String name;
     private String description;
     private double nettoPrice;
